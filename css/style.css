@@ -1,0 +1,53 @@
+
+.button {
+    background-color: #819b57;
+    color: white;
+    border: 1.5px solid #819b57;
+    border-radius: 8px; 
+}
+.button:hover {
+    background-color: transparent;
+    border-color: #819b57;
+    color: #819b57;
+    cursor: pointer;
+}
+
+.button:active {
+   background-color: #819b57;
+   border-color: #819b57;
+}
+ 
+.link {
+    text-decoration: none;
+    color:  white
+}
+
+.link:hover {
+    color: #819b57;
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+.hero
+{
+    color: #ffffff;
+    
+}
+.hero span 
+{
+    color: #819b57;
+}
+
+.section
+{
+    color: #000000;
+}
+.precision
+{
+    background-color: #819b57;
+    color: #f7f7f7;
+}
