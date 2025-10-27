@@ -1,14 +1,54 @@
-
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v24-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v24-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+    font-family: poppins, sans-serif;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
 .button {
     background-color: #819b57;
     color: white;
     border: 1.5px solid #819b57;
     border-radius: 8px; 
+    font-weight: 600;
+    
 }
 .button:hover {
     background-color: transparent;
     border-color: #819b57;
-    color: #819b57;
+    color: #819b57; 
     cursor: pointer;
 }
 
@@ -20,21 +60,26 @@
 .link {
     text-decoration: none;
     color:  white
+    
 }
 
 .link:hover {
     color: #819b57;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
+    font-weight: 600;
 }
 ul
 {
-    list-style-type: none;
+    text-decoration: none;
     padding: 0;
 }
 .hero
 {
+    text-align: center;
     color: #ffffff;
+    font-size: 128px;
+    font-weight: 900;
     
 }
 .hero span 
@@ -50,4 +95,50 @@ ul
 {
     background-color: #819b57;
     color: #f7f7f7;
+}
+.text
+{
+    color: #819b57;
+}
+.kaif
+{
+    color: #819b57;
+    text-transform: uppercase;
+}
+.precision-item
+{
+    padding: 20px;
+    font-weight: 300;
+}
+.Baristas
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+.place-item
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+.address-link a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.address-link a:hover {
+  color: #819b57;
+  text-decoration: underline;
+}
+.copy
+{
+    color: #0f0f0f;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.address-link
+{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
 }
